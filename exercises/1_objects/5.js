@@ -103,6 +103,7 @@ let school = {
     let grades = course.grades.map(grade => {
       return Number(grade.split(': ')[1]);
     });
+    console.log(grades);
     return grades.reduce((acc, grade) => acc + grade, 0) / grades.length;
   },
 }
