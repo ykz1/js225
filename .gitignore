@@ -3,3 +3,6 @@
 db/*.sqlite3
 
 .DS_Store
+
+js229/quiz
+js229/project
